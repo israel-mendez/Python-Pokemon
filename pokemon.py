@@ -41,14 +41,15 @@ def slow_prompt(message):
     for i in message:
         sys.stdout.write(i)
         sys.stdout.flush()
-        time.sleep(0.025)
+        # time.sleep(0.025)
+
 
 
 def slow_draw(message):
     for i in message:
         sys.stdout.write(i)
         sys.stdout.flush()
-        time.sleep(0.000001)
+        # time.sleep(0.000001)
 
 
 # POKEMON CLASS - this class holds common attributes shared
